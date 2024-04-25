@@ -1,28 +1,18 @@
 $(document).ready(function() {
     // Basic AI for generating melodies
 
-    // Function to generate a melody
+    // New code for generating melodies
     function generateMelody() {
-        // Code to generate a melody
+        // Code for generating melodies
     }
 
-    // Function to play a melody
+    // New code for playing melodies
     function playMelody() {
-        // Code to play a melody
+        // Code for playing melodies
     }
 
-    // Function to stop playing a melody
+    // New code for stopping melodies
     function stopMelody() {
-        // Code to stop playing a melody
-    }
-
-    // Function to save a melody
-    function saveMelody() {
-        // Code to save a melody
-    }
-
-    // Function to load a melody
-    function loadMelody() {
-        // Code to load a melody
+        // Code for stopping melodies
     }
 });
