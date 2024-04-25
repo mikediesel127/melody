@@ -1,3 +1,6 @@
 $(document).ready(function() {
-    // Basic AI for generating songs
+    // AI for generating songs
+    function generateSong() {
+        // Code for generating songs
+    }
 });

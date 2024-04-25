@@ -10,9 +10,10 @@ class PlaylistMaker {
 
     removePattern(pattern) {
         const index = this.patterns.indexOf(pattern);
-        if (index > -1) {
-            this.patterns.splice(index, 1);
+        if (index === -1) {
+            throw new Error("Pattern not found");
         }
+        this.patterns.splice(index, 1);
     }
 
     createSong(song) {

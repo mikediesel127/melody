@@ -10,9 +10,10 @@ class ChannelRack {
 
     removeInstrument(instrument) {
         const index = this.instruments.indexOf(instrument);
-        if (index > -1) {
-            this.instruments.splice(index, 1);
+        if (index === -1) {
+            throw new Error("Instrument not found");
         }
+        this.instruments.splice(index, 1);
     }
 
     createPattern(pattern) {
